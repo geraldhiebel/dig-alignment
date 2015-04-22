@@ -296,5 +296,53 @@
 "claims_feature": {"@id": "http://memexproxy.com/ontology/claims_feature"},
 "wipo_country_feature": {"@id": "http://memexproxy.com/ontology/wipo_country_feature"},
 "keywords_feature": {"@id": "http://memexproxy.com/ontology/keywords_feature"},
-"similar_bodyPart_cluster_feature": {"@id": "http://memexproxy.com/ontology/similar_bodyPart_cluster_feature"}
+"similar_bodyPart_cluster_feature": {"@id": "http://memexproxy.com/ontology/similar_bodyPart_cluster_feature"},
+"Place": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/Place"
+},
+"PopulatedPlace": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/PopulatedPlace"
+},
+"AdministrativeArea": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/AdministrativeArea"
+},
+"Country": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/Country"
+},
+"State1stDiv": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/State1stDiv"
+},
+"CountyProvince2ndDiv": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/CountyProvince2ndDiv"
+},
+"Community3rdDiv": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/Community3rdDiv"
+},
+"SubCommunity4thDiv": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/SubCommunity4thDiv"
+},
+"SpaceTimeVolume": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/SpaceTimeVolume"
+},
+"Geometry": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/Geometry"
+},
+"Point": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/Point"
+},
+"TimeSpan": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/TimeSpan"
+},
 }}

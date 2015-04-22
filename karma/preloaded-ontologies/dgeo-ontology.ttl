@@ -84,9 +84,10 @@ memex:Geometry rdf:type owl:Class ;
 	rdfs:comment """Geometry of a SpaceTimeVolume""" ;
 	.
 	
-memex:PointGeometry rdf:type owl:Class ; 
+memex:Point rdf:type owl:Class ; 
 	rdfs:label "PointGeometry"@en ;
 	rdfs:subClassOf memex:Geometry ;
+	rdfs:subClassOf schema:GeoCoordinates ;
 	rdfs:comment """PointGeometry identifying a point inside or close to a SpaceTimeVolume. """ ;
 	.
 
@@ -296,10 +297,17 @@ memex:asWGS84 rdf:type owl:DatatypeProperty ;
 	rdfs:comment """Geometry encoded in WGS84 as a string"""
 	.	
 
+memex:coordinates rdf:type owl:DatatypeProperty ;
+	rdfs:domain memex:Point ;
+	rdfs:label "coordinates"@en ;
+	rdfs:comment """Geometry encoded as GeoJson Point in an array"""
+	.
+
 memex:asGeoJson rdf:type owl:DatatypeProperty ;
 	rdfs:domain memex:Geometry ;
+	rdfs:range memex:Point ;
 	rdfs:label "asGeoJson"@en ;
-	rdfs:comment """Geometry encoded as GeoJson in a string"""
+	rdfs:comment """Link Geometry to Point encoded as GeoJson in an array"""
 	.
 
 memex:asWKTLiteral rdf:type owl:DatatypeProperty ;
