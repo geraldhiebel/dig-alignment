@@ -99,7 +99,7 @@ def fcode_to_class(fclass,fcode):
 
 
 # 
-dgeo = "http://dig.isi.edu/ontology/dgeo/"
+dgeo = "http://memexproxy.com/ontology/"
 fcode_dictionary = {}
 fcode_dictionary['PCLI'] = "Country"
 fcode_dictionary['ADM1'] = "State1stDiv"

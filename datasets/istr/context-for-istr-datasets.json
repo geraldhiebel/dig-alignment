@@ -337,12 +337,25 @@
     "@type": "@id",
     "@id": "http://memexproxy.com/ontology/Geometry"
 },
-"Point": {
-    "@type": "@id",
-    "@id": "http://memexproxy.com/ontology/Point"
-},
 "TimeSpan": {
     "@type": "@id",
     "@id": "http://memexproxy.com/ontology/TimeSpan"
 },
+"FeatureCollection": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/geojson/FeatureCollection"
+},
+"Feature": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/geojson/Feature"
+},
+"Point": {
+    "@type": "@id",
+    "@id": "http://memexproxy.com/ontology/geojson/Point"
+},
+"geometry": {"@id": "http://memexproxy.com/ontology/geojson/geometry"},
+"properties": {"@id": "http://memexproxy.com/ontology/geojson/properties"},
+"coordinates": {"@id": "http://memexproxy.com/ontology/geojson/coordinates"},
+"type": {"@id": "http://memexproxy.com/ontology/geojson/type"},
+"features": {"@id": "http://memexproxy.com/ontology/geojson/features"}
 }}

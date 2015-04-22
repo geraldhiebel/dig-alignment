@@ -1,114 +1,109 @@
 [
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4844084",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4844084",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_005"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-73.01094",
+            "@type": "memex:Point",
+            "schema:latitude": "41.67815"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/4844084/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Terryville",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/4844084",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.67815"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-73.01094"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/4844084/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/4844084"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4844648",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4844648",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_003"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-72.88621",
+            "@type": "memex:Point",
+            "schema:latitude": "41.75788"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/4844648/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Unionville",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/4844648",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.75788"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-72.88621"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/4844648/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/4844648"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4844275",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:CountyProvince2ndDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4844275",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/CountyProvince2ndDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_013"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-72.33649",
+            "@type": "memex:Point",
+            "schema:latitude": "41.85501"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_013/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -232,92 +227,82 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_013",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-72.33649"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.85501"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_013/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_013"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "3319572",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703_70307"
+    },
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "3319572",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "11.45",
+            "@type": "memex:Point",
+            "schema:latitude": "47.16667"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/3319572/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Ellbögen",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/3319572",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.16667"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "11.45"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/3319572/SpaceTimeVolume"
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
     },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703_70307"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/3319572"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "2775219",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:CountyProvince2ndDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "2775219",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/CountyProvince2ndDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "11.33333",
+            "@type": "memex:Point",
+            "schema:latitude": "47.2"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -346,88 +331,78 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.2"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "11.33333"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4836464",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4836464",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_001"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-73.57207",
+            "@type": "memex:Point",
+            "schema:latitude": "41.12399"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/4836464/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Hunting Ridge",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/4836464",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-73.57207"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.12399"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/4836464/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/4836464"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4845904",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:CountyProvince2ndDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4845904",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/CountyProvince2ndDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_015"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-71.98749",
+            "@type": "memex:Point",
+            "schema:latitude": "41.83003"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_015/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -556,37 +531,36 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_015",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-71.98749"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.83003"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_015/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_015"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "2782113",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:Country",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "2782113",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "13.33333",
+            "@type": "memex:Point",
+            "schema:latitude": "47.33333"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/Country/AT/SpaceTimeVolume"
     },
-    "@type": "http://dig.isi.edu/ontology/dgeo/Country",
     "memex:hasName": [
         {
             "rdfs:label": "Austrujo",
@@ -1169,88 +1143,74 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/Country/AT",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "13.33333"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.33333"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/Country/AT/SpaceTimeVolume"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/Country/AT"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "3319573",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703_70352"
+    },
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "3319573",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "11.21667",
+            "@type": "memex:Point",
+            "schema:latitude": "47.21667"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/3319573/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Sellrain",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/3319573",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "11.21667"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.21667"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/3319573/SpaceTimeVolume"
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
     },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703_70352"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/3319573"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "2770542",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:State1stDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "2770542",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/State1stDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_03"
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "15.75",
+            "@type": "memex:Point",
+            "schema:latitude": "48.33333"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_03/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -1739,37 +1699,36 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_03",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "15.75"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "48.33333"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_03/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_03"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_03"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "6252001",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:Country",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "6252001",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-98.5",
+            "@type": "memex:Point",
+            "schema:latitude": "39.76"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/Country/US/SpaceTimeVolume"
     },
-    "@type": "http://dig.isi.edu/ontology/dgeo/Country",
     "memex:hasName": [
         {
             "rdfs:label": "Feriene Steaten",
@@ -2662,92 +2621,78 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/Country/US",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-98.5"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "39.76"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/Country/US/SpaceTimeVolume"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/Country/US"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "2763589",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_06_612_61240"
+    },
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "2763589",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_06"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_06_612"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "13.95",
+            "@type": "memex:Point",
+            "schema:latitude": "47.48333"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/2763589/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Tipschern",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/2763589",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "13.95"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.48333"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/2763589/SpaceTimeVolume"
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_06"
     },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_06_612_61240"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/2763589"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4834272",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4834272",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_003"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-72.83204",
+            "@type": "memex:Point",
+            "schema:latitude": "41.71982"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/4834272/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -2786,228 +2731,203 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/4834272",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.71982"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-72.83204"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/4834272/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/4834272"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
-        "memex:hasType": {
-            "@type": "skos:Concept",
-            "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
-        },
-        "@id": "http://localhost:8080/source/geonames/place/Country/AT"
-    },
     "memex:hasIdentifier": {
         "rdfs:label": "3319580",
         "@type": "memex:Identifier",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
     },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703"
-    },
-    "memex:hasName": {
-        "rdfs:label": "Gnadenwald",
-        "@type": "memex:Name",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
-    },
-    "@id": "http://localhost:8080/source/geonames/place/3319580",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.31667"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "11.56667"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/3319580/SpaceTimeVolume"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703_70311"
-    }
-},
-{
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    },
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "11.56667",
+            "@type": "memex:Point",
+            "schema:latitude": "47.31667"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/3319580/SpaceTimeVolume"
+    },
+    "memex:hasName": {
+        "rdfs:label": "Gnadenwald",
+        "@type": "memex:Name",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
+    },
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/3319580"
+},
+{
     "memex:hasIdentifier": {
         "rdfs:label": "2778430",
         "@type": "memex:Identifier",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
     },
-    "@type": "http://dig.isi.edu/ontology/dgeo/Community3rdDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703"
-    },
-    "memex:hasName": {
-        "rdfs:label": "Gnadenwald",
-        "@type": "memex:Name",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
-    },
-    "@id": "http://localhost:8080/source/geonames/place/Community3rdDiv/AT_07_703_70311",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "11.58333"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.33333"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/Community3rdDiv/AT_07_703_70311/SpaceTimeVolume"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
+    "@type": "memex:Community3rdDiv",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703_70311"
-    }
-},
-{
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    },
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "11.58333",
+            "@type": "memex:Point",
+            "schema:latitude": "47.33333"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/Community3rdDiv/AT_07_703_70311/SpaceTimeVolume"
+    },
+    "memex:hasName": {
+        "rdfs:label": "Gnadenwald",
+        "@type": "memex:Name",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
+    },
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/Community3rdDiv/AT_07_703_70311"
+},
+{
     "memex:hasIdentifier": {
         "rdfs:label": "3319578",
         "@type": "memex:Identifier",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
     },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_702_70213"
     },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
+        "memex:hasType": {
+            "@type": "skos:Concept",
+            "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/Country/AT"
+    },
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_702"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "10.93333",
+            "@type": "memex:Point",
+            "schema:latitude": "47.3"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/3319578/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Obsteig",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/3319578",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "10.93333"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.3"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/3319578/SpaceTimeVolume"
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
     },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_702_70213"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/3319578"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4843313",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4843313",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_001"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-73.41873",
+            "@type": "memex:Point",
+            "schema:latitude": "41.09371"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/4843313/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "South Norwalk",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/4843313",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-73.41873"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.09371"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/4843313/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/4843313"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "2763586",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:State1stDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "2763586",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/State1stDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "11.33333",
+            "@type": "memex:Point",
+            "schema:latitude": "47.25"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -3031,44 +2951,43 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.25"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "11.33333"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "3319575",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703_70337"
+    },
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "3319575",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "11.25",
+            "@type": "memex:Point",
+            "schema:latitude": "47.23333"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/3319575/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -3082,48 +3001,39 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/3319575",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "11.25"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.23333"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/3319575/SpaceTimeVolume"
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
     },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703_70337"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/3319575"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4834162",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:CountyProvince2ndDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4834162",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/CountyProvince2ndDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_001"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-73.3712",
+            "@type": "memex:Point",
+            "schema:latitude": "41.22496"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_001/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -3267,232 +3177,207 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_001",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-73.3712"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.22496"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_001/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_001"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4836451",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4836451",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_003"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-72.77898",
+            "@type": "memex:Point",
+            "schema:latitude": "41.97676"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/4836451/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Hungary",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/4836451",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.97676"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-72.77898"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/4836451/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/4836451"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "2763588",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_06_621_62122"
+    },
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "2763588",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_06"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_06_621"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "15.55",
+            "@type": "memex:Point",
+            "schema:latitude": "47.7"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/2763588/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Tirol",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/2763588",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.7"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "15.55"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/2763588/SpaceTimeVolume"
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_06"
     },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_06_621_62122"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/2763588"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "3319577",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_701_70101"
+    },
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "3319577",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_701"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "11.41667",
+            "@type": "memex:Point",
+            "schema:latitude": "47.23333"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/3319577/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Igls",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/3319577",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "11.41667"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.23333"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/3319577/SpaceTimeVolume"
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
     },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_701_70101"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/3319577"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "3319576",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703_70304"
+    },
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "3319576",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "11.26667",
+            "@type": "memex:Point",
+            "schema:latitude": "47.23333"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/3319576/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Obergrinzens",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/3319576",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "11.26667"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.23333"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/3319576/SpaceTimeVolume"
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
     },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703_70304"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/3319576"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4839373",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:CountyProvince2ndDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4839373",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/CountyProvince2ndDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_009"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-72.89986",
+            "@type": "memex:Point",
+            "schema:latitude": "41.34882"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_009/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -3621,92 +3506,82 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_009",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.34882"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-72.89986"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_009/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_009"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "2763590",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_04_415_41506"
+    },
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "2763590",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_04"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_04_415"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "14.35",
+            "@type": "memex:Point",
+            "schema:latitude": "48.05"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/2763590/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Tinsting",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/2763590",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "48.05"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "14.35"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/2763590/SpaceTimeVolume"
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_04"
     },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_04_415_41506"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/2763590"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4835806",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:CountyProvince2ndDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4835806",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/CountyProvince2ndDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_003"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-72.73284",
+            "@type": "memex:Point",
+            "schema:latitude": "41.80642"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_003/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -3845,92 +3720,82 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_003",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.80642"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-72.73284"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_003/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_003"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "3319574",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_702_70202"
+    },
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "3319574",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_702"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "10.95",
+            "@type": "memex:Point",
+            "schema:latitude": "47.23333"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/3319574/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Ochsengarten",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/3319574",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "10.95"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.23333"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/3319574/SpaceTimeVolume"
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
     },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_702_70202"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/3319574"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4839420",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:CountyProvince2ndDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4839420",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/CountyProvince2ndDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_011"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-72.1065",
+            "@type": "memex:Point",
+            "schema:latitude": "41.46678"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_011/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -4059,40 +3924,35 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_011",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-72.1065"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.46678"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_011/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_011"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "2769848",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:State1stDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "2769848",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/State1stDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_04"
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "14",
+            "@type": "memex:Point",
+            "schema:latitude": "48.25"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_04/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -4136,88 +3996,78 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_04",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "48.25"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "14"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_04/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_04"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_04"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4079429",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4079429",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_AL"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_AL_043"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-86.49443",
+            "@type": "memex:Point",
+            "schema:latitude": "34.28232"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/4079429/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "New Canaan",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/4079429",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-86.49443"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "34.28232"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/4079429/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_AL"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/4079429"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4838627",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:CountyProvince2ndDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4838627",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/CountyProvince2ndDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_007"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-72.52312",
+            "@type": "memex:Point",
+            "schema:latitude": "41.43538"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_007/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -4351,44 +4201,39 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_007",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-72.52312"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.43538"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_007/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_007"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4837802",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:CountyProvince2ndDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4837802",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/CountyProvince2ndDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_005"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-73.24532",
+            "@type": "memex:Point",
+            "schema:latitude": "41.79249"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_005/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -4512,88 +4357,78 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_005",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-73.24532"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.79249"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_005/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/US_CT_005"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "3319579",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:PopulatedPlace",
+    "memex:fallsWithinCommunity3rdDiv": {
+        "@type": "memex:Community3rdDiv",
+        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703_70323"
+    },
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#AT"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/AT"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "3319579",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/PopulatedPlace",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
-    },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountyProvince2ndDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/CountyProvince2ndDiv",
+    "memex:fallsWithinCountyProvince2ndDiv": {
+        "@type": "memex:CountyProvince2ndDiv",
         "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703"
+    },
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "11.63333",
+            "@type": "memex:Point",
+            "schema:latitude": "47.3"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/3319579/SpaceTimeVolume"
     },
     "memex:hasName": {
         "rdfs:label": "Kolsassberg",
         "@type": "memex:Name",
         "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/DefaultName"
     },
-    "@id": "http://localhost:8080/source/geonames/place/3319579",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "11.63333"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "47.3"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/3319579/SpaceTimeVolume"
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/AT_07"
     },
-    "http://dig.isi.edu/ontology/memex/fallsWithinCommunity3rdDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/Community3rdDiv",
-        "@id": "http://localhost:8080/source/geonames/place/CountyProvince2ndDiv/AT_07_703_70323"
-    }
+    "@id": "http://localhost:8080/source/geonames/place/3319579"
 },
 {
-    "http://dig.isi.edu/ontology/memex/fallsWithinCountry": {
-        "@type": "http://dig.isi.edu/ontology/memex/Country",
+    "memex:hasIdentifier": {
+        "rdfs:label": "4831725",
+        "@type": "memex:Identifier",
+        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
+    },
+    "@type": "memex:State1stDiv",
+    "memex:fallsWithinCountry": {
+        "@type": "memex:Country",
         "memex:hasType": {
             "@type": "skos:Concept",
             "@id": "http://eulersharp.sourceforge.net/2003/03swap/countries#US"
         },
         "@id": "http://localhost:8080/source/geonames/place/Country/US"
     },
-    "memex:hasIdentifier": {
-        "rdfs:label": "4831725",
-        "@type": "memex:Identifier",
-        "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/IdentifierTypes/GeonamesId"
-    },
-    "@type": "http://dig.isi.edu/ontology/dgeo/State1stDiv",
-    "http://dig.isi.edu/ontology/memex/fallsWithinState1stDiv": {
-        "@type": "http://dig.isi.edu/ontology/memex/State1stDiv",
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    "memex:hasSpaceTimeVolume": {
+        "@type": "memex:SpaceTimeVolume",
+        "memex:hasGeometry": {
+            "schema:longitude": "-72.66648",
+            "@type": "memex:Point",
+            "schema:latitude": "41.66704"
+        },
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT/SpaceTimeVolume"
     },
     "memex:hasName": [
         {
@@ -5022,20 +4857,10 @@
             "memex:hasType": "http://dig.isi.edu/gazetteer/data/SKOS/NameTypes/AlternateName"
         }
     ],
-    "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT",
-    "http://dig.isi.edu/ontology/memex/hasSpaceTimeVolume": {
-        "@type": "http://dig.isi.edu/ontology/memex/SpaceTimeVolume",
-        "http://dig.isi.edu/ontology/memex/hasGeometry": [
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "-72.66648"
-            },
-            {
-                "@type": "http://dig.isi.edu/ontology/memex/Point",
-                "http://dig.isi.edu/ontology/memex/coordinates": "41.66704"
-            }
-        ],
-        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT/SpaceTimeVolume"
-    }
+    "memex:fallsWithinState1stDiv": {
+        "@type": "memex:State1stDiv",
+        "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
+    },
+    "@id": "http://localhost:8080/source/geonames/place/State1stDiv/US_CT"
 }
 ]

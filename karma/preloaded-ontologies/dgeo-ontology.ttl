@@ -6,7 +6,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix schema: <http://schema.org/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix memex: <http://dig.isi.edu/ontology/memex/> .
+@prefix geojson: <http://memexproxy.com/ontology/geojson/> .
+
 
 <http://memexproxy.com/ontology/> rdf:type owl:Ontology .
 
@@ -84,7 +85,7 @@ memex:Geometry rdf:type owl:Class ;
 	rdfs:comment """Geometry of a SpaceTimeVolume""" ;
 	.
 	
-memex:Point rdf:type owl:Class ; 
+memex:PointGeometry rdf:type owl:Class ; 
 	rdfs:label "PointGeometry"@en ;
 	rdfs:subClassOf memex:Geometry ;
 	rdfs:subClassOf schema:GeoCoordinates ;
@@ -96,7 +97,75 @@ memex:TimeSpan rdf:type owl:Class ;
 	rdfs:comment """TimeSpan of a SpaceTimeVolume""" ;
 	.
 
-	
+#########################################################
+#
+# GeoJson Classes
+#
+#########################################################
+
+
+geojson:FeatureCollection rdf:type owl:Class ; 
+	rdfs:label "FeatureCollection"@en ;
+	rdfs:comment """ GeoJson FeatureCollection """ ;
+	.
+
+geojson:Feature rdf:type owl:Class ; 
+	rdfs:label "Feature"@en ;
+	rdfs:comment """ GeoJson Feature """ ;
+	.
+
+geojson:Point rdf:type owl:Class ; 
+	rdfs:label "Point"@en ;
+	rdfs:comment """ GeoJson Point """ ;
+	.
+#########################################################
+#
+# GeoJson  Object Properties
+#
+#########################################################
+
+
+geojson:features rdf:type owl:ObjectProperty ;
+	rdfs:domain geojson:FeatureCollection ;
+	rdfs:range geojson:Feature ;
+	rdfs:label "features"@en ;
+	rdfs:comment """features of a FeatureCollection"""	
+	.
+
+
+geojson:geometry rdf:type owl:ObjectProperty ;
+	rdfs:domain geojson:Feature ;
+	rdfs:range geojson:Point ;
+	rdfs:label "geometry"@en ;
+	rdfs:comment """geometry of a Feature"""	
+	.
+
+geojson:properties rdf:type owl:ObjectProperty ;
+	rdfs:domain geojson:Feature ;
+	rdfs:label "properties"@en ;
+	rdfs:comment """properties of a Feature"""	
+	.
+#########################################################
+#
+# GeoJson  Datatype Properties
+#
+#########################################################
+
+geojson:coordinates rdf:type owl:DatatypeProperty ;
+	rdfs:domain geojson:Point ;
+	rdfs:label "coordinates"@en ;
+	rdfs:comment """Geometry encoded as GeoJson Point in an array"""
+	.
+
+
+
+geojson:type rdf:type owl:DatatypeProperty ;
+	rdfs:domain memex:TimeSpan ;
+	rdfs:range xsd:date ;
+	rdfs:label "type"@en ;
+	rdfs:comment """Used to define types in GeoJson"""	
+	.
+
 #########################################################
 #
 # Object Properties
@@ -297,17 +366,13 @@ memex:asWGS84 rdf:type owl:DatatypeProperty ;
 	rdfs:comment """Geometry encoded in WGS84 as a string"""
 	.	
 
-memex:coordinates rdf:type owl:DatatypeProperty ;
-	rdfs:domain memex:Point ;
-	rdfs:label "coordinates"@en ;
-	rdfs:comment """Geometry encoded as GeoJson Point in an array"""
-	.
 
 memex:asGeoJson rdf:type owl:DatatypeProperty ;
 	rdfs:domain memex:Geometry ;
 	rdfs:range memex:Point ;
 	rdfs:label "asGeoJson"@en ;
-	rdfs:comment """Link Geometry to Point encoded as GeoJson in an array"""
+	rdfs:comment """Link Geometry to Point encoded as GeoJson 
+	in an array"""
 	.
 
 memex:asWKTLiteral rdf:type owl:DatatypeProperty ;
@@ -329,3 +394,7 @@ memex:endDate rdf:type owl:DatatypeProperty ;
 	rdfs:label "endDate"@en ;
 	rdfs:comment """Ending date of a time span"""	
 	.
+
+
+
+
