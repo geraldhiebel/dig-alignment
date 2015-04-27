@@ -88,18 +88,21 @@ def gn_SubCommunity4thDiv_uri(country,admin1,admin2,admin3,admin4):
     return "geonames/place/SubCommunity4thDiv/"+country+"_"+admin1+"_"+admin2+"_"+admin3+"_"+admin4
 
 def fcode_to_class(fclass,fcode):
-	"Compute the name of the class in the ontology from a geonames fcode"
-	c = fclass_dictionary[fclass]
-	if fclass=="P":
-		return dgeo+c
-	c = fcode_dictionary[fcode]
-	if c == None:
-		return ''
-	return dgeo+c
+    "Compute the name of the class in the ontology from a geonames fcode"
+    c = fclass_dictionary[fclass]
+    if fclass=="P":
+        return dgeo+c
+    c = fcode_dictionary[fcode]
+    if c == 'Country':
+        return schema+c	
+    if c == None:
+        return ''
+    return dgeo+c
 
 
 # 
 dgeo = "http://memexproxy.com/ontology/"
+schema = "http://schema.org/"
 fcode_dictionary = {}
 fcode_dictionary['PCLI'] = "Country"
 fcode_dictionary['ADM1'] = "State1stDiv"

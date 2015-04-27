@@ -297,10 +297,6 @@
 "wipo_country_feature": {"@id": "http://memexproxy.com/ontology/wipo_country_feature"},
 "keywords_feature": {"@id": "http://memexproxy.com/ontology/keywords_feature"},
 "similar_bodyPart_cluster_feature": {"@id": "http://memexproxy.com/ontology/similar_bodyPart_cluster_feature"},
-"Place": {
-    "@type": "@id",
-    "@id": "http://memexproxy.com/ontology/Place"
-},
 "PopulatedPlace": {
     "@type": "@id",
     "@id": "http://memexproxy.com/ontology/PopulatedPlace"
@@ -308,10 +304,6 @@
 "AdministrativeArea": {
     "@type": "@id",
     "@id": "http://memexproxy.com/ontology/AdministrativeArea"
-},
-"Country": {
-    "@type": "@id",
-    "@id": "http://memexproxy.com/ontology/Country"
 },
 "State1stDiv": {
     "@type": "@id",
@@ -341,21 +333,18 @@
     "@type": "@id",
     "@id": "http://memexproxy.com/ontology/TimeSpan"
 },
-"FeatureCollection": {
-    "@type": "@id",
-    "@id": "http://memexproxy.com/ontology/geojson/FeatureCollection"
-},
-"Feature": {
-    "@type": "@id",
-    "@id": "http://memexproxy.com/ontology/geojson/Feature"
-},
 "Point": {
     "@type": "@id",
     "@id": "http://memexproxy.com/ontology/geojson/Point"
 },
+"hasSpaceTimeVolume": {"@id": "http://memexproxy.com/ontology/hasSpaceTimeVolume"},
+"fallsWithinCountry": {"@id": "http://memexproxy.com/ontology/fallsWithinCountry"},
+"fallsWithinState1stDiv": {"@id": "http://memexproxy.com/ontology/fallsWithinState1stDiv"},
+"fallsWithinCountyProvince2ndDiv": {"@id": "http://memexproxy.com/ontology/fallsWithinCountyProvince2ndDiv"},
+"fallsWithinCommunity3rdDiv": {"@id": "http://memexproxy.com/ontology/fallsWithinCommunity3rdDiv"},
+"fallsWithinSubCommunity4thDiv": {"@id": "http://memexproxy.com/ontology/fallsWithinSubCommunity4thDiv"},
 "geometry": {"@id": "http://memexproxy.com/ontology/geojson/geometry"},
 "properties": {"@id": "http://memexproxy.com/ontology/geojson/properties"},
 "coordinates": {"@id": "http://memexproxy.com/ontology/geojson/coordinates"},
-"type": {"@id": "http://memexproxy.com/ontology/geojson/type"},
-"features": {"@id": "http://memexproxy.com/ontology/geojson/features"}
+
 }}
