@@ -57,8 +57,8 @@ return gn_SubCommunity4thDiv_uri(getValue("country"),getValue("admin1"),getValue
 | _latitude_ | `schema:latitude` | `schema:GeoCoordinates1`|
 | _longitude_ | `schema:longitude` | `schema:GeoCoordinates1`|
 | _name_ | `rdfs:label` | `memex:Name1`|
+| _place_class_ | `km-dev:columnSubClassOfLink` | `schema:Place1`|
 | _place_uri_ | `uri` | `schema:Place1`|
-| _placew_class_ | `km-dev:columnSubClassOfLink` | `schema:Place1`|
 
 
 ### Links
