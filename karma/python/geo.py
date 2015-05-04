@@ -10,8 +10,9 @@ def gn_place_uri(geonamesid,fcode,country,admin1,admin2,admin3,admin4):
     elif fcode=="ADM3":
         return "geonames/place/Community3rdDiv/"+country+"_"+admin1+"_"+admin2+"_"+admin3
     elif fcode=="ADM4":
-        return "geonames/place/SubCommunity4thDiv/"+country+"_"+admin1+"_"+admin2+"_"+admin3+"_"+admin4    
-    return "geonames/place/"+geonamesid
+        return "geonames/place/SubCommunity4thDiv/"+country+"_"+admin1+"_"+admin2+"_"+admin3+"_"+admin4
+    return "geonames/place/"+geonamesid 
+
 
 def gn_place_spacetimevolume_uri(class_uri):
 	"Return URI of SpaceTimeVolume for a class with Spacetimevolume"
@@ -94,6 +95,8 @@ def fcode_to_class(fclass,fcode):
         return dgeo+c
     c = fcode_dictionary[fcode]
     if c == 'Country':
+        return schema+c
+    if c == 'AdministrativeArea':
         return schema+c	
     if c == None:
         return ''
